@@ -74,3 +74,15 @@ body {
     border: none;
   }
   
+
+  li span {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .concluida span {
+    text-decoration: line-through;
+    color: #888;
+    cursor: pointer;
+  }
+  
